@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class SceneManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class SceneManager : MonoBehaviour
     [SerializeField]
     private Transform Tape = null;
     // Start is called before the first frame update
+    void Awake() {
+        Assert.IsNotNull(Tape);
+    }
     void Start()
     {
         
