@@ -2822,6 +2822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 732713905}
   - component: {fileID: 732713904}
+  - component: {fileID: 732713906}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -2857,6 +2858,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &732713906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732713903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadd33fd02a6b314ca760f5ec4b390f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinParticles: {fileID: 6957702973132709498, guid: 7e651e86e5c51484a97b3568cc64f120,
+    type: 3}
 --- !u!4 &872408094 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1831514429560682486, guid: b3614acbeac96bc48bd2c69c36095364,
@@ -2876,6 +2891,7 @@ GameObject:
   - component: {fileID: 1039280379}
   - component: {fileID: 1039280378}
   - component: {fileID: 1039280380}
+  - component: {fileID: 1039280381}
   m_Layer: 8
   m_Name: bird
   m_TagString: Untagged
@@ -2995,6 +3011,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
+--- !u!114 &1039280381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039280375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7716158828487764596a3c9444a678ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1157335888
 GameObject:
   m_ObjectHideFlags: 0
@@ -4347,75 +4375,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f198a3f1826de4ca894998a0528249, type: 3}
---- !u!1001 &1543713511508687855
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6957702973132709498, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_Name
-      value: CoinParticles
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7213733959080342203, guid: 7e651e86e5c51484a97b3568cc64f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e651e86e5c51484a97b3568cc64f120, type: 3}
 --- !u!1001 &1831514428722942952
 PrefabInstance:
   m_ObjectHideFlags: 0

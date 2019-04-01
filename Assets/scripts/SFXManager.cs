@@ -5,7 +5,7 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour
 {
    public static SFXManager instance = null;
-   GameObject coinParticles;
+   public GameObject coinParticles;
 
    void Awake() {
        if (instance == null) {
