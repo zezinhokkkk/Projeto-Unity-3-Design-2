@@ -13,7 +13,7 @@ public class UIComponents
         public Text txtCoinCount;
         public Text txtLifeCount;
         [Header("Other")]
-        public GameObject panelHUd;
+        public GameObject panelHud;
    }
    public Hud hud;
 }

@@ -3125,9 +3125,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732713905}
-  - component: {fileID: 732713904}
   - component: {fileID: 732713906}
   - component: {fileID: 732713907}
+  - component: {fileID: 732713904}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -3144,7 +3144,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 732713903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0adae50ef5eea614aa36f53e7286cb16, type: 3}
+  m_Script: {fileID: 11500000, guid: f287ba9de6158b545b021dbb6ac59fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}
@@ -3153,7 +3153,7 @@ MonoBehaviour:
     hud:
       txtCoinCount: {fileID: 1415077954}
       txtLifeCount: {fileID: 1687581750}
-      panelHUd: {fileID: 1431566879}
+      panelHud: {fileID: 0}
 --- !u!4 &732713905
 Transform:
   m_ObjectHideFlags: 0
@@ -4697,7 +4697,7 @@ Transform:
   - {fileID: 1094926125}
   - {fileID: 937394339}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1687456011
 PrefabInstance:
@@ -5136,7 +5136,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1883917736
 PrefabInstance:
