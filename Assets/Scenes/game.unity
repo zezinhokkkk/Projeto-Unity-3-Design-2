@@ -3113,6 +3113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 6957702973132709498, guid: 7e651e86e5c51484a97b3568cc64f120,
     type: 3}
+  dieParticles: {fileID: 8934945584617013583, guid: 6662fdf6314f24f40ab975683d9181ef,
+    type: 3}
 --- !u!114 &732713907
 MonoBehaviour:
   m_ObjectHideFlags: 0
