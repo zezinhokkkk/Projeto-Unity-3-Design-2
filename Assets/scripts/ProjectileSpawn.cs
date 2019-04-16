@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ProjectileSpawn : MonoBehaviour
 {
-    public GameObject parent;
+    GameObject parent;
     public GameObject prefab;
     public GameObject spawnPoint;
     public float waitTime = 3f;
