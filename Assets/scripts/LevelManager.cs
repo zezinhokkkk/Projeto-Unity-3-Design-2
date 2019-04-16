@@ -36,4 +36,8 @@ public class LevelManager : MonoBehaviour
     void DisplayHudData() {
         uiComponents.hud.txtCoinCount.text = "x " + sceneData.CoinCount;
         }
+        public void SetTapeSpeed(float value) {
+            TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z);
+            
+        }
 }
