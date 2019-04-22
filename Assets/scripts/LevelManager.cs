@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
-
+ 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance = null;
@@ -31,18 +31,18 @@ public class LevelManager : MonoBehaviour
         DisplayHudData();
     }
     public void IncrementCoinCount() {
-        sceneData.CoinCount = sceneData.CoinCount + 1;
+        sceneData.coinCount = sceneData.coinCount + 1;
     }
     void DisplayHudData() {
-        uiComponents.hud.txtCoinCount.text = "x " + sceneData.CoinCount;
+        uiComponents.hud.txtCoinCount.text = "x " + sceneData.coinCount;
         }
-        public void SetTapeSpeed(float value) {
-            TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z);
+        public void SetTapeSpeed(float value){
+    TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z); 
+}
 
-        }
-
-        public void ShowLevelCompletePanel() {
-            uiComponents.levelCompletePanel.LCPanel.SetActive(true);
-            uiComponents.levelCompletePanel.txtScore.text = "" + sceneData.coinCount; 
-        }
+public void ShowLevelCompletePanel() {
+    uiComponents.levelCompletePanel.LCPanel.SetActive(true);
+    uiComponents.levelCompletePanel.txtScore.text = "" + sceneData.coinCount;
+}
+    
 }

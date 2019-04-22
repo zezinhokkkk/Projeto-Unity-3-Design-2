@@ -5,5 +5,5 @@ using System;
 
 public class SceneData 
 {
-    public int CoinCount = 0;
+    public int coinCount = 0;
 }

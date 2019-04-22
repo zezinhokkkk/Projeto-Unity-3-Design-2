@@ -11,7 +11,7 @@ public class UIComponents
    public class Hud {
        [Header("Text")]
         public Text txtCoinCount;
-        public Text txtLifeCount;
+        
         [Header("Other")]
         public GameObject panelHud;
    }
@@ -19,9 +19,9 @@ public class UIComponents
    public class LevelCompletePanel {
        [Header("Text")]
         public Text txtScore;
-        public Text LCPanel;
+        
         [Header("Other")]
-        public GameObject panelHud;
+        public GameObject LCPanel;
    }
    public Hud hud;
    public LevelCompletePanel levelCompletePanel; 
