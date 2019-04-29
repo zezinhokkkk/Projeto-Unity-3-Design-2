@@ -607,7 +607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.099975586, y: 41.19995}
+  m_AnchoredPosition: {x: 0.100097656, y: 41.19995}
   m_SizeDelta: {x: -83.6, y: -412.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512540380
@@ -1522,7 +1522,6 @@ GameObject:
   - component: {fileID: 1039280376}
   - component: {fileID: 1039280379}
   - component: {fileID: 1039280378}
-  - component: {fileID: 1039280380}
   - component: {fileID: 1039280381}
   - component: {fileID: 1039280382}
   m_Layer: 8
@@ -1631,19 +1630,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1039280380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039280375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfe800539df70104592ad4a53a93b993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedFactor: 10
 --- !u!114 &1039280381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,8 +1654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 280ecf7c6eb7ff14ab2aad96b8a8f3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 6957702973132709498, guid: 7e651e86e5c51484a97b3568cc64f120,
-    type: 3}
+  lerpRate: 4
 --- !u!1 &1131121362
 GameObject:
   m_ObjectHideFlags: 0
